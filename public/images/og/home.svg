@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  <text x="600" y="300" text-anchor="middle" fill="#e5e5e5" font-family="system-ui" font-size="48" font-weight="700">Lai Simply Blog</text>
+  <text x="600" y="360" text-anchor="middle" fill="#a0a0a0" font-family="system-ui" font-size="24">A minimal personal blog built with Next.js</text>
+</svg>

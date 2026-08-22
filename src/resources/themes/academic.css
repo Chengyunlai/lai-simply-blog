@@ -1,0 +1,199 @@
+/* ============================================================
+   Theme: Academic
+   Description: 学术风格，衬线字体，适合深度阅读
+   ============================================================ */
+
+.article-content[data-theme-style="academic"] {
+  font-family: "Noto Serif", "Source Han Serif SC", Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.9;
+  color: var(--color-text);
+  text-align: justify;
+  hyphens: auto;
+}
+
+.article-content[data-theme-style="academic"] h1,
+.article-content[data-theme-style="academic"] h2,
+.article-content[data-theme-style="academic"] h3,
+.article-content[data-theme-style="academic"] h4 {
+  font-family: "Noto Sans", "Source Han Sans SC", -apple-system, sans-serif;
+  font-weight: 700;
+  text-align: left;
+  hyphens: none;
+}
+
+.article-content[data-theme-style="academic"] h1 {
+  font-size: 1.75em;
+  margin-top: 0;
+  margin-bottom: 0.75em;
+  letter-spacing: -0.03em;
+}
+
+.article-content[data-theme-style="academic"] h2 {
+  font-size: 1.375em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  letter-spacing: -0.02em;
+}
+
+.article-content[data-theme-style="academic"] h3 {
+  font-size: 1.125em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.article-content[data-theme-style="academic"] h4 {
+  font-size: 1em;
+  margin-top: 1.25em;
+  margin-bottom: 0.375em;
+  font-style: italic;
+}
+
+.article-content[data-theme-style="academic"] p {
+  margin-top: 0;
+  margin-bottom: 1em;
+  text-indent: 1em;
+}
+
+.article-content[data-theme-style="academic"] h1 + p,
+.article-content[data-theme-style="academic"] h2 + p,
+.article-content[data-theme-style="academic"] h3 + p,
+.article-content[data-theme-style="academic"] h4 + p,
+.article-content[data-theme-style="academic"] blockquote + p,
+.article-content[data-theme-style="academic"] pre + p {
+  text-indent: 0;
+}
+
+.article-content[data-theme-style="academic"] blockquote {
+  margin: 1em 0;
+  padding: 0.75em 1.25em;
+  border-left: 3px solid var(--color-accent);
+  background: var(--color-bg-secondary);
+  font-style: italic;
+  text-indent: 0;
+}
+
+.article-content[data-theme-style="academic"] blockquote p {
+  text-indent: 0;
+  margin-bottom: 0.5em;
+}
+
+.article-content[data-theme-style="academic"] blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.article-content[data-theme-style="academic"] ul,
+.article-content[data-theme-style="academic"] ol {
+  margin-top: 0;
+  margin-bottom: 1em;
+  padding-left: 1.25em;
+  text-indent: 0;
+}
+
+.article-content[data-theme-style="academic"] li {
+  margin-bottom: 0.375em;
+}
+
+.article-content[data-theme-style="academic"] li p {
+  text-indent: 0;
+  margin-bottom: 0.25em;
+}
+
+.article-content[data-theme-style="academic"] code {
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+  font-size: 0.85em;
+  background: var(--color-bg-secondary);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  letter-spacing: 0;
+}
+
+.article-content[data-theme-style="academic"] pre {
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1em 1.25em;
+  overflow-x: auto;
+  margin: 1em 0;
+  text-indent: 0;
+}
+
+.article-content[data-theme-style="academic"] pre code {
+  background: transparent;
+  padding: 0;
+  font-size: 0.85em;
+  line-height: 1.6;
+}
+
+.article-content[data-theme-style="academic"] a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.article-content[data-theme-style="academic"] a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.article-content[data-theme-style="academic"] table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.9em;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.article-content[data-theme-style="academic"] th,
+.article-content[data-theme-style="academic"] td {
+  padding: 0.625em 1em;
+  border: 1px solid var(--color-border);
+  text-align: left;
+}
+
+.article-content[data-theme-style="academic"] th {
+  background: var(--color-bg-secondary);
+  font-weight: 600;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.article-content[data-theme-style="academic"] hr {
+  border: none;
+  text-align: center;
+  margin: 2em 0;
+  color: var(--color-text-secondary);
+}
+
+.article-content[data-theme-style="academic"] hr::before {
+  content: "· · ·";
+  letter-spacing: 1em;
+}
+
+.article-content[data-theme-style="academic"] img {
+  max-width: 100%;
+  display: block;
+  margin: 1.5em auto;
+  border-radius: var(--radius);
+}
+
+.article-content[data-theme-style="academic"] figcaption {
+  text-align: center;
+  font-size: 0.85em;
+  color: var(--color-text-secondary);
+  margin-top: 0.5em;
+  font-style: italic;
+}
+
+.article-content[data-theme-style="academic"] sup {
+  font-size: 0.75em;
+  vertical-align: super;
+  line-height: 0;
+}
+
+.article-content[data-theme-style="academic"] .footnote-ref {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}

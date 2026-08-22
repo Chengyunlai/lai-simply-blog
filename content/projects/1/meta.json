@@ -1,0 +1,16 @@
+{
+  "name": {
+    "en": "Lai Simply Blog",
+    "zh": "Lai Simply Blog"
+  },
+  "description": {
+    "en": "A minimal bilingual personal blog built with Next.js.",
+    "zh": "一个基于 Next.js 构建的简洁双语个人博客。"
+  },
+  "category": {
+    "en": "Open Source",
+    "zh": "开源项目"
+  },
+  "image": "/images/og/home.svg",
+  "link": "https://github.com/Chengyunlai/lai-simply-blog"
+}

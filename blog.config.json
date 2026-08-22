@@ -1,0 +1,63 @@
+{
+  "site": {
+    "baseURL": "https://example.com",
+    "basePath": "",
+    "title": {
+      "en": "Lai Simply Blog",
+      "zh": "我的博客"
+    },
+    "description": {
+      "en": "A minimal personal blog built with Next.js",
+      "zh": "一个基于 Next.js 的简洁个人博客"
+    }
+  },
+  "person": {
+    "name": "Your Name",
+    "role": {
+      "en": "Developer",
+      "zh": "开发者"
+    },
+    "avatar": "/images/avatar.svg",
+    "email": "",
+    "location": "UTC",
+    "locationLabel": "Your City"
+  },
+  "about": {
+    "intro": {
+      "display": true,
+      "title": {
+        "en": "About Me",
+        "zh": "关于我"
+      },
+      "description": {
+        "en": "Write your self-introduction here.",
+        "zh": "在这里写你的自我介绍。"
+      }
+    }
+  },
+  "social": [
+    {
+      "name": "GitHub",
+      "link": "https://github.com/username"
+    }
+  ],
+  "theme": {
+    "style": {
+      "theme": "light",
+      "articleStyle": "default"
+    },
+    "display": {
+      "location": true,
+      "time": true,
+      "themeSwitcher": true,
+      "languageSwitcher": true
+    }
+  },
+  "navigation": {
+    "routes": {
+      "/": true,
+      "/work": true,
+      "/blog": true
+    }
+  }
+}

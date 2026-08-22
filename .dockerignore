@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+.git
+.github
+.idea
+.vscode
+*.md
+!README.md
+.env*

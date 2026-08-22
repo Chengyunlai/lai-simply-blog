@@ -1,0 +1,15 @@
+{
+  "name": {
+    "en": "Reading Space",
+    "zh": "阅读空间"
+  },
+  "description": {
+    "en": "A small experiment for collecting notes, references, and ideas in one place.",
+    "zh": "一个用于收集笔记、资料和想法的小型实验。"
+  },
+  "category": {
+    "en": "Experiments",
+    "zh": "实验项目"
+  },
+  "image": "/images/og/home.svg"
+}
